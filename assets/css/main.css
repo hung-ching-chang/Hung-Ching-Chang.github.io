@@ -4022,7 +4022,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		margin: 0 auto;
-		width: 55em;
+		width: 70em;
 	}
 
 		#footer .inner > * {
@@ -4035,26 +4035,26 @@ input, select, textarea {
 		}
 
 		#footer .inner .contact {
-			width: calc(50% - 1.5em);
+			width: calc(100%);
 		}
 
 		#footer .inner .copyright {
-			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 2em 0;
 			padding: 2em 0 0 0;
-			width: 100%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
 		}
 
 			#footer .inner .copyright li {
-				border-left: solid 2px rgba(255, 255, 255, 0.125);
 				color: rgba(255, 255, 255, 0.35);
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
-				margin-left: 1em;
+				margin-left: 0em;
 				padding: 0;
-				padding-left: 1em;
+				padding-left: 0em;
 			}
 
 				#footer .inner .copyright li:first-child {
