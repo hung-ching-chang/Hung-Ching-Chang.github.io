@@ -585,3 +585,7 @@
 	};
 
 })(jQuery);
+
+$('#btn').click(function() {
+    $('#wizard').toggle();
+});
